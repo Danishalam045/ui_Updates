@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixth_project/keys/demo_buttons.dart';
+import 'package:sixth_project/demo_buttons.dart';
 
 class UIUpdatesDemo extends StatelessWidget {
   const UIUpdatesDemo({super.key});
@@ -8,7 +8,7 @@ class UIUpdatesDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     print('UIUpdatesDemo BUILD called');
     return const Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: EdgeInsets.all(8.0),
       child: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
